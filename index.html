@@ -20,7 +20,7 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">WELCOME</a></li>
-							<li><a href="#one">PROFESSIONAL EXPERIENCE</a></li>
+							<li><a href="#one">PROFESSIONAL EXPERIENCES</a></li>
 							<li><a href="#two">SKILLS</a></li>
 							<li><a href="#three">EXTRACURRICULAR EXPERIENCES</a></li>
 						</ul>
@@ -38,9 +38,9 @@
 							<h2>Hey there, This is Dongyi Guo</h2>
 							<p>CS Graduate @ USYD<br />
 								Online Course Operator and Tutor @ Forchange<br />
-								Backend Java & Python Programmer.<br />
+								Backend Java && Python Programmer.<br />
 								GNU/Linux Desktop Enthusiastic and Linux System Administrator.<br />
-								Strong Communicator, Speaker and Co-worker in groups.<br />
+								Great Communicator && Speaker.<br />
 								Devoted Learner.</p>
                             <ul class="icons">
 								<li><a href="mailto:loveyuyu99@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
@@ -72,10 +72,9 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Backend Programmer && Tester</h2>
-									<li>Contributed in group developing a tutor-student matching system's backend.</li>
-									<li>Developed location-based services throughout Google Map API.</li>
-									<li>Accomplished unittests in several modules.</li>
-									<li>Planned future Integration testing, System testing and Acceptance Criteria over to the client and other teams.</li>
+									<li>Developed location-based services for a tutor-student matching system throughout Google Map API.</li>
+									<li>Developed unittests of such matching system.</li>
+									<li>Planned future Integration testing, System testing and Acceptance Criteria.</li>
 								</div>
 							</div>
 						</section>
@@ -84,8 +83,8 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Technical Consultant</h2>
-									<li>Paved way of difficulties for client about Drupal upgrade.</li>
-									<li>Analysed across Content Management System in order to find feasibility of whether keeping still with Drupal.</li>
+									<li>Evaluated difficulties Drupal upgrade from 7 to 8.</li>
+									<li>Evaluated feasibility viaContent Management System.</li>
 								</div>
 							</div>
 						</section>
@@ -97,36 +96,16 @@
 							<h2>SKILLS</h2>
 							<div class="features">
 								<section>
-									<span class="icon solid major fa-people-carry"></span>
-									<h3>Team Collaboration</h3>
-								</section>
-								<section>
-									<span class="icon solid major fa-user-friends"></span>
-									<h3>Client Relationship</h3>
-								</section>
-								<section>
-									<span class="icon solid major fa-chalkboard-teacher"></span>
-									<h3>Interactive Teaching</h3>
-								</section>
-								<section>
-									<span class="icon solid major fa-project-diagram"></span>
-									<h3>Agile Project Management</h3>
-								</section>
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Object-Oriented Programming</h3>
-								</section>
-								<section>
-									<span class="icon solid major fab fa-code"></span>
-									<h3>REST API</h3>
-								</section>
-								<section>
-									<span class="icon solid major fa-gem"></span>
-									<h3>Course Operating & Sales</h3>
-								</section>
-								<section>
 									<span class="icon brands major fa-linux"></span>
 									<h3>Linux System Administration</h3>
+								</section>
+								<section>
+									<span class="icon brands major fa-python"></span>
+									<h3>Python</h3>
+								</section>
+								<section>
+									<span class="icon brands major fa-r-project"></span>
+									<h3>R/RStudio</h3>
 								</section>
 								<section>
 									<span class="icon brands major fa-java"></span>
@@ -137,12 +116,12 @@
 									<h3>Gradle</h3>
 								</section>
 								<section>
-									<span class="icon brands major fa-python"></span>
-									<h3>Python</h3>
+									<span class="icon solid major fa-code"></span>
+									<h3>Object-Oriented Programming</h3>
 								</section>
 								<section>
-									<span class="icon brands major fa-r-project"></span>
-									<h3>R/RStudio</h3>
+									<span class="icon solid major fab fa-code"></span>
+									<h3>REST API</h3>
 								</section>
 								<section>
 									<span class="icon solid major fab fa-code"></span>
@@ -159,6 +138,26 @@
 								<section>
 									<span class="icon solid major fa-code"></span>
 									<h3>Common-Lisp</h3>
+								</section>
+								<section>
+									<span class="icon solid major fa-chalkboard-teacher"></span>
+									<h3>Interactive Teaching</h3>
+								</section>
+								<section>
+									<span class="icon solid major fa-people-carry"></span>
+									<h3>Team Collaboration</h3>
+								</section>
+								<section>
+									<span class="icon solid major fa-project-diagram"></span>
+									<h3>Agile Methodologies</h3>
+								</section>
+								<section>
+									<span class="icon solid major fa-user-friends"></span>
+									<h3>Client Engagement</h3>
+								</section>
+								<section>
+									<span class="icon solid major fa-gem"></span>
+									<h3>Course Operating & Sales</h3>
 								</section>
 							</div>
 						</div>
@@ -234,18 +233,10 @@
 							</div>
 						</div>
 					</section>
-
 			</div>
 
 		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy;Dongyi Guo. All rights reserved.</li>
-                        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+		<footer id="footer"></footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -255,6 +246,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				$(function () {
+					$("#footer").load("/assets/html/1-footer.html");
+				});
+			</script>
 
 	</body>
 </html>
